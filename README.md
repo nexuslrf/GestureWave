@@ -1,13 +1,7 @@
-This is a project at University of Applied Sciences Wiesbaden Rüsselsheim
-http://www.hs-rm.de/dcsm/studiengaenge/informatik-msc/index.html
-
-The project is part of the lecture 'Machine Learning' by Prof. Schwanecke (winter term 2013/14). 
-It is intended to learn different Machine Learning algorithms by a concrete project. 
-
 You can use this project for your research. No commercial usage. 
 
 
-###Gesture recognition using the soundwave doppler effect
+### Gesture recognition using the soundwave doppler effect
 Authors: 
 - Manuel Dudda
 - Benjamin Weißer
