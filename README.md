@@ -2,17 +2,7 @@ You can use this project for your research. No commercial usage.
 
 
 ### Gesture recognition using the soundwave doppler effect
-Authors: 
-- Manuel Dudda
-- Benjamin Weißer
-- Paul Pasler
-- Sebastian Rieder
-- Alexander Baumgärtner
-- Robert Brylka
-- Annalena Gutheil
-- Matthias Volland
-- Daniel Andrés López
-- Frank Reichwein
+
 
 Based on research at: http://research.microsoft.com/en-us/um/redmond/groups/cue/soundwave/
 
