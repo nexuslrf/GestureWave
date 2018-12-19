@@ -41,7 +41,7 @@ class SenseGesture():
     def checkNameSet(self):
         userconfig = self.config.getUserConfig()
         if(userconfig['name'] == ""):
-            name = input('Bitte schreibe deinen Namen:\n')
+            name = input('Input your dataset name:\n')
             self.config.setConfig("user", "name", name)
             self.name = name
         else:

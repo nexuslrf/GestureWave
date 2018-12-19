@@ -171,6 +171,7 @@ class Console:
             self.inputEvent.set()
             return
         self.recorder.classifyStart(self.classificator)
+        self.inputEvent.set()
         # no input event set because this done in recorder in another thread
 
     def classifyCallback(self):
