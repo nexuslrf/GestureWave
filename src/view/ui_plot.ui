@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>win_plot</class>
+ <widget class="QMainWindow" name="win_plot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Soundwave gestures using Doppler Effect</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QwtPlot" name="qwtPlot">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>6</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>6</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_0">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="toolTip">
+         <string>Right-To-Left-One-Hand</string>
+        </property>
+        <property name="text">
+         <string>Record 0</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_1">
+        <property name="toolTip">
+         <string>Top-to-Bottom-One-Hand</string>
+        </property>
+        <property name="text">
+         <string>Record 1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_2">
+        <property name="toolTip">
+         <string>Entgegengesetzt with two hands</string>
+        </property>
+        <property name="text">
+         <string>Record 2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_3">
+        <property name="toolTip">
+         <string>Single-push with one hand</string>
+        </property>
+        <property name="text">
+         <string>Record 3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_4">
+        <property name="toolTip">
+         <string>Double-push with one hand</string>
+        </property>
+        <property name="text">
+         <string>Record 4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_5">
+        <property name="toolTip">
+         <string>Rotate one hand</string>
+        </property>
+        <property name="text">
+         <string>Record 5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_6">
+        <property name="toolTip">
+         <string>Background noise (no gesture, but in silent room)</string>
+        </property>
+        <property name="text">
+         <string>Record 6</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_gesture_7">
+        <property name="toolTip">
+         <string>No gesture with background sound (in a Pub, at office, in the kitchen, etc.)</string>
+        </property>
+        <property name="text">
+         <string>Record 7</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QwtPlot</class>
+   <extends>QFrame</extends>
+   <header>qwt_plot.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
