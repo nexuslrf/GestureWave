@@ -1,5 +1,7 @@
 # Gesture Wave
 
+![demo](GestureWave_Demo.gif)
+
 A hand-gesture recognition system using Doppler effect of ultrasonic.
 
 Using SVM as a classifier to recognize your gesture sound wave.
