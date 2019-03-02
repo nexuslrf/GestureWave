@@ -1,6 +1,6 @@
 # Gesture Wave
 
-![demo](GestureWave_Demo.gif)
+![demo](Demo.gif)
 
 A hand-gesture recognition system using Doppler effect of ultrasonic.
 
